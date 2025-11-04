@@ -346,10 +346,9 @@ a {
   text-align: left;
 }
 
-
 .about-me-img-ctn {
-  width: fit-content;
-  height: auto;
+  width: 80%;
+  height: 80%;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
