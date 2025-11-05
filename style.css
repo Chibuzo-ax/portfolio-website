@@ -341,7 +341,7 @@ a {
 }
 
 .about-me-text p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: #aba4a1;
   text-align: left;
 }
@@ -360,4 +360,126 @@ a {
   width: 80%;
   height: 80%;
   border-radius: 1rem;
+}
+
+/* FEATURED PROJECT STYLE */
+.projects-ctn {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #283139;
+}
+
+.projects-ctn-heading-and-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  padding: 6rem;
+}
+
+.projects-heading-ctn h1 {
+  font-size: 2rem;
+}
+
+.project-title p {
+  font-size: 1.15rem;
+  color: #aba4a1;
+  text-align: left;
+}
+
+.projects-portfolio-ctn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.projects-content-ctn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  cursor: pointer;
+}
+
+.project-img-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.project-img-ctn img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+/* TECH STACK STYLE */
+.tech-stack-ctn {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #283139;
+}
+
+.tech-stack-heading-and-content-ctn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  padding: 6rem;
+}
+
+.tech-stack-content-ctn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 4rem;
+}
+
+.tech-stack-heading-ctn h1 {
+  font-size: 2rem;
+}
+
+.tech-stack-img-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+}
+
+.tech-stack-img-ctn img {
+  width: 100%;
+  height: 100%;
+}
+
+.git-hub-logo{
+  width: 100%;
+  height: 100%;
+}
+
+.git-hub-logo img{
+  width: 100%;
+  height: 100%;
 }
