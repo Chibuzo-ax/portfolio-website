@@ -35,7 +35,7 @@ body {
   width: 12%;
   min-width: 10%;
   max-width: 14%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -71,8 +71,8 @@ body {
 }
 
 .sidebar-img-ctn {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 50rem;
 }
 
@@ -93,12 +93,12 @@ body {
 }
 
 .username-ctn h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .user-role-ctn p {
   color: #aba4a1;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .sidebar-nav-btn-links-ctn {
@@ -157,7 +157,7 @@ body {
 /* MAIN PAGE STYLE */
 .main-page-ctn {
   width: 88%;
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -265,6 +265,7 @@ a {
 
 .hero-heading-ctn h1 {
   font-size: 4rem;
+  line-height: 4.5rem;
 }
 
 .hero-sub-heading-ctn {
@@ -451,7 +452,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   column-gap: 4rem;
 }
 
